@@ -61,7 +61,7 @@ ThemeData themeData = ThemeData(
           borderRadius: BorderRadius.circular(10),
         ),
       ),
-      textStyle: WidgetStatePropertyAll(
+      textStyle: const WidgetStatePropertyAll(
         TextStyle(
           color: Colors.black,
           fontWeight: FontWeight.w700,
@@ -82,7 +82,7 @@ ThemeData themeData = ThemeData(
           borderRadius: BorderRadius.circular(10),
         ),
       ),
-      textStyle: WidgetStatePropertyAll(
+      textStyle: const WidgetStatePropertyAll(
         TextStyle(
           color: Colors.black,
           fontWeight: FontWeight.w700,
@@ -100,7 +100,7 @@ ThemeData themeData = ThemeData(
           borderRadius: BorderRadius.circular(10),
         ),
       ),
-      textStyle: WidgetStatePropertyAll(
+      textStyle: const WidgetStatePropertyAll(
         TextStyle(
           color: Colors.black,
           fontWeight: FontWeight.w700,

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:univibeflutter/frontend/global/router/navigator_screen.dart';
 import 'package:univibeflutter/frontend/global/theme/style/color_app.dart';
 import 'package:univibeflutter/frontend/presentation/screens/auth/sign_in_screen.dart';
-
+/// TODO : Abdelkader (signed) from 18:12 to 22:24 
 class SplachScreen extends StatefulWidget {
   const SplachScreen({super.key});
 
@@ -22,7 +22,7 @@ class _SplachScreenState extends State<SplachScreen> {
       // Navigate to the SignIn screen using pushReplacement to prevent going back to SplashScreen
       changeScreen(
         context,
-        SignInScreen(),
+        const SignInScreen(),
       );
     });
   }

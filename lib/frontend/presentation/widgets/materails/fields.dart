@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class FieldTile extends StatelessWidget {
   final TextEditingController? controller;
@@ -34,7 +33,7 @@ class FieldTile extends StatelessWidget {
         controller: controller,
         keyboardType: keyboardType,
         decoration: InputDecoration(
-          labelText: labelText ?? "--",
+          labelText: labelText,
           prefixIcon: prefixIcon,
         ),
         validator: validator,

@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
 import 'package:univibeflutter/frontend/global/theme/theme_data_light.dart';
-import 'package:univibeflutter/frontend/presentation/screens/auth/sign_in_screen.dart';
 import 'package:univibeflutter/frontend/presentation/screens/auth/splach_screen.dart';
-import 'package:univibeflutter/frontend/presentation/screens/home_page.dart';
+import 'package:univibeflutter/frontend/presentation/screens/team_tasks/team_tasks_home.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -41,7 +38,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
       debugShowCheckedModeBanner: false,
       title: 'Material Flutter Project',
       theme: themeData,
-      home: const SplachScreen(),
+      home: const TeamTasksHome(),
     );
   }
 }
