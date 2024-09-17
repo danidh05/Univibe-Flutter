@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:univibeflutter/frontend/global/router/navigator_screen.dart';
-import 'package:univibeflutter/frontend/presentation/screens/auth/register_screen.dart';
-import 'package:univibeflutter/frontend/presentation/screens/auth/sign_in_screen.dart';
-import 'package:univibeflutter/frontend/presentation/screens/auth/university_select.dart';
+import 'package:univibeflutter/core/router/navigator_screen.dart';
+import 'package:univibeflutter/screens/auth/register_screen.dart';
+import 'package:univibeflutter/screens/auth/sign_in_screen.dart';
+import 'package:univibeflutter/screens/auth/university_select.dart';
 
 class ButtonLogIn extends StatelessWidget {
   const ButtonLogIn({super.key});

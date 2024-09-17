@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:univibeflutter/frontend/global/theme/style/color_app.dart';
+import 'package:univibeflutter/core/theme/style/color_app.dart';
 
 ThemeData themeData = ThemeData(
   colorScheme: ColorScheme.fromSeed(

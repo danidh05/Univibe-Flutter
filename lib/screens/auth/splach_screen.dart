@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:univibeflutter/frontend/global/router/navigator_screen.dart';
-import 'package:univibeflutter/frontend/global/theme/style/color_app.dart';
-import 'package:univibeflutter/frontend/presentation/screens/auth/sign_in_screen.dart';
+import 'package:univibeflutter/core/router/navigator_screen.dart';
+import 'package:univibeflutter/core/theme/style/color_app.dart';
+import 'package:univibeflutter/screens/auth/sign_in_screen.dart';
 /// TODO : Abdelkader (signed) from 18:12 to 22:24 
 class SplachScreen extends StatefulWidget {
   const SplachScreen({super.key});

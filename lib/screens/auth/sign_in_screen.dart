@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:univibeflutter/frontend/presentation/components/header_login.dart';
-import 'package:univibeflutter/frontend/presentation/widgets/buttons.dart';
-import 'package:univibeflutter/frontend/presentation/widgets/materails/fields.dart';
-import 'package:univibeflutter/frontend/presentation/widgets/texts.dart';
+import 'package:univibeflutter/widgets/buttons.dart';
+import 'package:univibeflutter/widgets/fields.dart';
+import 'package:univibeflutter/widgets/header_login.dart';
+import 'package:univibeflutter/widgets/texts.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});

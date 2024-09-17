@@ -1,6 +1,6 @@
 import 'package:drop_down_search_field/drop_down_search_field.dart';
 import 'package:flutter/material.dart';
-import 'package:univibeflutter/frontend/global/theme/style/color_app.dart';
+import 'package:univibeflutter/core/theme/style/color_app.dart';
 
 class ProductDropdownSearch extends StatefulWidget {
   final String lable;

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:univibeflutter/frontend/global/theme/theme_data_light.dart';
-import 'package:univibeflutter/frontend/presentation/screens/auth/splach_screen.dart';
-import 'package:univibeflutter/frontend/presentation/screens/team_tasks/team_tasks_home.dart';
+import 'package:univibeflutter/core/theme/theme_data_light.dart';
+import 'package:univibeflutter/screens/team_tasks/team_tasks_home.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

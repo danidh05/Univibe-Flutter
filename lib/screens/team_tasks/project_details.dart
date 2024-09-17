@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:univibeflutter/frontend/global/theme/style/color_app.dart';
-import 'package:univibeflutter/frontend/presentation/components/header.dart';
-import 'package:univibeflutter/frontend/presentation/widgets/image_pick.dart';
+import 'package:univibeflutter/core/theme/style/color_app.dart';
+import 'package:univibeflutter/frontend/presentation/widgets/header.dart';
+import 'package:univibeflutter/widgets/image_pick.dart';
 
 class ProjectDetails extends StatelessWidget {
   const ProjectDetails({super.key});

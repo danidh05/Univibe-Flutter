@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:univibeflutter/frontend/global/router/navigator_screen.dart';
-import 'package:univibeflutter/frontend/presentation/components/header_login.dart';
-import 'package:univibeflutter/frontend/presentation/screens/auth/university_select.dart';
-import 'package:univibeflutter/frontend/presentation/widgets/buttons.dart';
-import 'package:univibeflutter/frontend/presentation/widgets/materails/fields.dart';
-import 'package:univibeflutter/frontend/presentation/widgets/texts.dart';
+import 'package:univibeflutter/core/router/navigator_screen.dart';
+import 'package:univibeflutter/widgets/header_login.dart';
+import 'package:univibeflutter/screens/auth/university_select.dart';
+import 'package:univibeflutter/widgets/buttons.dart';
+import 'package:univibeflutter/widgets/fields.dart';
+import 'package:univibeflutter/widgets/texts.dart';
 
 class RegisterScreen extends StatelessWidget {
   const RegisterScreen({super.key});

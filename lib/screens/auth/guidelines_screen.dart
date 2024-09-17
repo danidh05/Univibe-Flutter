@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:univibeflutter/frontend/global/router/navigator_screen.dart';
-import 'package:univibeflutter/frontend/global/theme/style/color_app.dart';
-import 'package:univibeflutter/frontend/presentation/components/header_login.dart';
-import 'package:univibeflutter/frontend/presentation/screens/home_page.dart';
-import 'package:univibeflutter/frontend/presentation/widgets/buttons.dart';
+import 'package:univibeflutter/core/router/navigator_screen.dart';
+import 'package:univibeflutter/core/theme/style/color_app.dart';
+import 'package:univibeflutter/screens/home_page.dart';
+import 'package:univibeflutter/widgets/buttons.dart';
+import 'package:univibeflutter/widgets/header_login.dart';
 
 class GuidelinesScreen extends StatelessWidget {
   const GuidelinesScreen({super.key});
