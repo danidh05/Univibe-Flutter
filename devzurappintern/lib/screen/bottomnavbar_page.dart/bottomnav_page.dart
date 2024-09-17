@@ -1,5 +1,5 @@
-import 'package:devzurappintern/pages/chat_and_user_page/users_page.dart';
-import 'package:devzurappintern/pages/courses_pages/courses_page.dart';
+import 'package:devzurappintern/screen/chat_and_user_page/users_page.dart';
+import 'package:devzurappintern/screen/courses_pages/courses_page.dart';
 import 'package:flutter/material.dart';
 
 class BottomNav extends StatefulWidget {

@@ -1,7 +1,7 @@
-import 'package:devzurappintern/components/containerspage.dart';
-import 'package:devzurappintern/components/textcardcomp.dart';
-import 'package:devzurappintern/utils/appbarpage.dart';
-import 'package:devzurappintern/utils/searchbar.dart';
+import 'package:devzurappintern/widget/containerspage.dart';
+import 'package:devzurappintern/widget/textcardcomp.dart';
+import 'package:devzurappintern/core/utils/appbarpage.dart';
+import 'package:devzurappintern/core/utils/searchbar.dart';
 import 'package:flutter/material.dart';
 
 class CoursesPage extends StatelessWidget {

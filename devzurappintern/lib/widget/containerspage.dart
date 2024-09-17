@@ -1,4 +1,4 @@
-import 'package:devzurappintern/pages/courses_pages/course_details.dart';
+import 'package:devzurappintern/screen/courses_pages/course_details.dart';
 import 'package:flutter/material.dart';
 
 class ContainersPage extends StatelessWidget {

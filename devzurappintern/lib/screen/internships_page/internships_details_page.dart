@@ -1,7 +1,7 @@
-import 'package:devzurappintern/components/contimagecomp.dart';
-import 'package:devzurappintern/utils/appbarpage.dart';
-import 'package:devzurappintern/utils/bullettextpoints.dart';
-import 'package:devzurappintern/utils/imagetextcomp.dart';
+import 'package:devzurappintern/widget/contimagecomp.dart';
+import 'package:devzurappintern/core/utils/appbarpage.dart';
+import 'package:devzurappintern/core/utils/bullettextpoints.dart';
+import 'package:devzurappintern/core/utils/imagetextcomp.dart';
 import 'package:flutter/material.dart';
 
 class InternshipsDetailsPage extends StatelessWidget {

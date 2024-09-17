@@ -1,4 +1,4 @@
-import 'package:devzurappintern/pages/bottomnavbar_page.dart/bottomnav_page.dart';
+import 'package:devzurappintern/screen/bottomnavbar_page.dart/bottomnav_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

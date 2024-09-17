@@ -1,6 +1,6 @@
-import 'package:devzurappintern/components/contimagecomp.dart';
-import 'package:devzurappintern/pages/internships_page/internships_material_page.dart';
-import 'package:devzurappintern/utils/appbarpage.dart';
+import 'package:devzurappintern/widget/contimagecomp.dart';
+import 'package:devzurappintern/screen/internships_page/internships_material_page.dart';
+import 'package:devzurappintern/core/utils/appbarpage.dart';
 import 'package:flutter/material.dart';
 
 class CourseDetails extends StatelessWidget {

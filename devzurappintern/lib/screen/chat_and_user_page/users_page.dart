@@ -1,5 +1,5 @@
-import 'package:devzurappintern/components/cardcomp.dart';
-import 'package:devzurappintern/utils/searchbar.dart';
+import 'package:devzurappintern/widget/cardcomp.dart';
+import 'package:devzurappintern/core/utils/searchbar.dart';
 import 'package:flutter/material.dart';
 
 class UserFirstPage extends StatelessWidget {
