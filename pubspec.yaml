@@ -67,6 +67,7 @@ flutter:
     - assets/images/logo_univibe.png
     - assets/images/background.png
     - assets/images/logo_devzur.png
+    - assets/images/not_found.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

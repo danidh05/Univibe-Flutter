@@ -72,11 +72,11 @@ ThemeData themeData = ThemeData(
   ),
   outlinedButtonTheme: OutlinedButtonThemeData(
     style: ButtonStyle(
-      backgroundColor: const WidgetStatePropertyAll(Colors.black),
-      foregroundColor: const WidgetStatePropertyAll(ColorApp.colorSecondary),
+      backgroundColor: const WidgetStatePropertyAll(ColorApp.colorBorder),
+      foregroundColor: const WidgetStatePropertyAll(Colors.black),
       elevation: const WidgetStatePropertyAll(2),
-      shadowColor: const WidgetStatePropertyAll(ColorApp.colorSecondary),
-      iconColor: const WidgetStatePropertyAll(ColorApp.colorPrimary),
+      shadowColor: const WidgetStatePropertyAll(ColorApp.colorBorder),
+      iconColor: const WidgetStatePropertyAll(ColorApp.colorBorder),
       shape: WidgetStatePropertyAll(
         RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10),
@@ -85,7 +85,7 @@ ThemeData themeData = ThemeData(
       textStyle: const WidgetStatePropertyAll(
         TextStyle(
           color: Colors.black,
-          fontWeight: FontWeight.w700,
+          fontWeight: FontWeight.bold,
           fontSize: 18,
         ),
       ),

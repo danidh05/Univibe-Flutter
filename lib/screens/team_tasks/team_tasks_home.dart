@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:univibeflutter/core/router/navigator_screen.dart';
 import 'package:univibeflutter/core/theme/style/color_app.dart';
-import 'package:univibeflutter/frontend/presentation/widgets/header.dart';
 import 'package:univibeflutter/screens/team_tasks/project_details.dart';
+import 'package:univibeflutter/widgets/header.dart';
 
 /// TODO : Abdelkader (TeamTasks) from 15:02 to 16:36
 class TeamTasksHome extends StatefulWidget {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:univibeflutter/core/theme/theme_data_light.dart';
+import 'package:univibeflutter/screens/profile/profile_home.dart';
 import 'package:univibeflutter/screens/team_tasks/team_tasks_home.dart';
 
 Future<void> main() async {
@@ -29,15 +30,11 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      locale: const Locale('en', 'US'),
-      supportedLocales: const [
-        Locale('en', 'US'),
-        Locale('ar', ''),
-      ],
+      
       debugShowCheckedModeBanner: false,
       title: 'Material Flutter Project',
       theme: themeData,
-      home: const TeamTasksHome(),
+      home: const ProfileHome(),
     );
   }
 }

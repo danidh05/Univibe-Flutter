@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:univibeflutter/core/theme/style/color_app.dart';
-import 'package:univibeflutter/frontend/presentation/widgets/header.dart';
+import 'package:univibeflutter/widgets/header.dart';
 import 'package:univibeflutter/widgets/image_pick.dart';
 
 class ProjectDetails extends StatelessWidget {
