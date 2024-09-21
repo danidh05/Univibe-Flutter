@@ -1,5 +1,7 @@
+import 'package:devzurappintern/screen/about/aboutinstructor_page.dart';
 import 'package:devzurappintern/screen/chat_and_user_page/users_page.dart';
 import 'package:devzurappintern/screen/courses_pages/courses_page.dart';
+import 'package:devzurappintern/screen/setting_pages/setting_screen.dart';
 import 'package:flutter/material.dart';
 
 class BottomNav extends StatefulWidget {
@@ -17,8 +19,8 @@ class _BottomNavState extends State<BottomNav> {
   final List<Widget> pages = [
     UserFirstPage(),
     CoursesPage(),
-    Text("Add"),
-    Text('Message Page'),
+    SettingPage(),
+    AboutInstructor(),
     Text('Profile Page'),
   ];
 
